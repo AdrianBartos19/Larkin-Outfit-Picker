@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Larkin Outfit Picker</title>
-    <h1>Larkin Outfit Picker</h1>
+
 </head>
 <body>
+    <h1>Larkin Outfit Picker</h1>
+    <form id="category-form">
+        <fieldset>
+            <legend>Co si chcem obliect?</legend>
 
+            <label>
+                <input type="checkbox" name="categories" value="tricka">
+                Tričká
+            </label>
 
+            <label>
+                <input type="checkbox" name="categories" value="nohavice">
+                Nohavice
+            </label>
+
+            <label>
+                <input type="checkbox" name="categories" value="topanky">
+                Topánky
+            </label>
+        </fieldset>
+        <button type="submit">Toto Chcem</button>
+
+    </form>
+    <script src="./app.js"></script>
 </body>
 </html>
