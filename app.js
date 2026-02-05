@@ -28,6 +28,7 @@ function renderOnePerSelected(selected) {
         // 2b) poskladaj cestu k obrázku: images/<kategoria>/<n>.png
         var src = "images/" + category + "/" + String(n) + ".png";
 
+        console.log(src)
         // 2c) vytvor kartu
         var card = document.createElement("article");
         card.className = "card";
