@@ -10,6 +10,7 @@ function renderGrid(selectedArr) {
 }
 
 function renderOnePerSelected(selected) {
+    var from = document.querySelector('.containter')
     var grid = document.getElementById("grid");
     // 1) vyčisti grid
 
@@ -48,6 +49,8 @@ function renderOnePerSelected(selected) {
         // vlož do gridu
         grid.appendChild(card);
     }
+
+    form.appendChild(grid)
 }
 
 console.log(randomOneToThree())

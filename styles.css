@@ -17,7 +17,7 @@ body{
 
 .containter {
     background: white;
-    height: 80vh;
+    height: 90vh;
     width: 80vh;
     border-radius: 20px;
     padding: 15px;
@@ -55,4 +55,41 @@ fieldset {
 .category-btn:active{
     background-color: hotpink;
     border: solid 2px hotpink
+}
+
+
+#grid{
+    display: flex;
+    flex-direction: column;   /* zvislo */
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card__img{
+
+
+
+
+    width: 100%;
+    height: 200px;     /* nastav rovnakú výšku */
+    margin: 15px 0;
+
+    object-fit: cover; /* dôležité, aby sa nevystrčil zo stredu */
+    display: block;
+    border: solid 2px pink;
+    border-radius: 10px;
+
+
+
+
 }
