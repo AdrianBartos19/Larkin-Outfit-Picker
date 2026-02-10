@@ -10,7 +10,7 @@ function renderGrid(selectedArr) {
 }
 
 function renderOnePerSelected(selected) {
-    var from = document.querySelector('.containter')
+    var container = document.querySelector('.containter')
     var grid = document.getElementById("grid");
     // 1) vyčisti grid
 
@@ -50,7 +50,7 @@ function renderOnePerSelected(selected) {
         grid.appendChild(card);
     }
 
-    form.appendChild(grid)
+    container.appendChild(grid)
 }
 
 console.log(randomOneToThree())
